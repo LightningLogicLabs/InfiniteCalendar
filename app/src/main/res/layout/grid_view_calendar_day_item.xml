@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/calendar_day_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="00" />
+
+        <View
+            android:id="@+id/calendar_day_event_indicator"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
